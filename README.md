@@ -8,7 +8,9 @@ Este projeto simula um sistema básico de **postagens em uma rede social**, util
 
 ## 📚 Projeto disponível
 
-- [POSTAGEM (Post)](./src) — Criação de postagens com comentários, formatação da saída via `StringBuilder`.
+- [`Comment.java`](./src/entities/Comment.java) — Classe que representa um comentário em um post.
+- [`Post.java`](./src/entities/Post.java) — Classe principal que representa a postagem com título, conteúdo, curtidas, data e comentários.
+- [`Main.java`](./src/application/Main.java) — Classe de execução com simulação de postagens e comentários formatados com `StringBuilder`.
 
 ---
 
